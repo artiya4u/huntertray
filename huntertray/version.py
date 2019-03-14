@@ -6,7 +6,7 @@ class Version:
     def __init__(self):
         pass
 
-    PYPI_URL = "https://pypi.python.org/pypi/hackertray/json"
+    PYPI_URL = "https://pypi.python.org/pypi/huntertray/json"
 
     @staticmethod
     def latest():
@@ -15,7 +15,7 @@ class Version:
 
     @staticmethod
     def current():
-        return pkg_resources.require("hackertray")[0].version
+        return pkg_resources.require("huntertray")[0].version
 
     @staticmethod
     def new_available():

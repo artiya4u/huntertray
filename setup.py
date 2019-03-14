@@ -8,7 +8,7 @@ if sys.version_info < (2, 7):
     requirements.append('argparse')
 
 setup(name='huntertray',
-      version='0.0.1',
+      version='0.0.2',
       description='ProductHunt in your System Tray',
       long_description='ProductHunt in your System Tray inspired by HackerTray',
       keywords='ProductHunt PH tray system tray icon huntertray',

@@ -32,6 +32,7 @@ access it via:
 
 depending on your Ubuntu Version. Or put it in `~/.config/openbox/autostart` 
 if you are running OpenBox.
+On PopOs install this to display AppIndicator https://extensions.gnome.org/extension/615/appindicator-support/
 
 ### Upgrade
 The latest stable version is [![the one on PyPi](https://pypip.in/v/huntertray/badge.png)](https://pypi.python.org/pypi/huntertray/)
@@ -89,9 +90,6 @@ To develop on HunterTray, or to test out experimental versions, do the following
 - Clone the project
 - Run `(sudo) python setup.py develop` in the HunterTray root directory
 - Run `huntertray` with the required command line options from anywhere.
-
-## Analytics
-To help improve the project and learn how its being used, I've added Analytics in HunterTray. The `--dnt` switch disables all analytics so that you can opt-out if desired. All data is collected anonymously, with no machine id or user-identifying information being sent back. To learn more, and see which events are being tracked, see the [Analytics](https://github.com/captn3m0/HunterTray/wiki/Analytics) wiki page.
 
 ## Credits
 

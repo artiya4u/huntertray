@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding=utf-8
 
 from __future__ import print_function
 import os
@@ -150,7 +151,6 @@ class HunterTrayApp:
         webbrowser.open(widget.url)
 
         if self.commentState:
-
             webbrowser.open(widget.discussion_url)
 
     def add_item(self, item):
@@ -158,7 +158,7 @@ class HunterTrayApp:
 
         i = gtk.CheckMenuItem(
             "(" + str(item['votes_count']).zfill(3) + "/" + str(item['comments_count']).zfill(3) + ")    " +
-            item['name'] + ' >> ' + item['tagline'])
+            item['name'] + ' – ' + item['tagline'])
 
         visited = item['history'] or item['id'] in self.db
 
